@@ -129,6 +129,73 @@
     .brands-section {
         padding: 100px 0;
     }
+
+
+    .form-x__title h3 {
+        font-size: 35px;
+        margin: 0 0 25px;
+    }
+    .form-x__title p {
+        font-size: 18px;
+    }
+    .form-x__title {
+        margin: 0px 0 35px;
+    }
+    .label-x {
+        font-size: 16px;
+        margin: 0 0 8px;
+    }
+    .input-x {
+        padding: 13px 18px;
+        font-size: 16px;
+        border-radius: 7px;
+    }
+    .form-x__main {
+        --bs-gutter-x: 45px;
+        --bs-gutter-y: 18px;
+    }
+    .input-pay-select .cd-img {
+        width: calc(var(--in-width) * 0.7);
+    }
+    .input-pay-select__bg {
+        border-width: 1px;
+    }
+    .input-pay-select {
+        border-radius: 9px;
+        height: 70px;
+        padding: 16px;
+    }
+    .input-pay-select-wrap {
+        grid-column-gap: 46px;
+    }
+    .input-x-outer .country__image {
+        width: 20px;
+        height: 20px;
+        left: 16px;
+    }
+    .input-x-outer .country__image ~ .input-x {
+        padding-left: 46px;
+    }
+    .input-x.nice-select::after {
+        right: 13px;
+    }
+    .checkbox__right__content {
+        padding: 45px;
+        border-radius: 18px;
+    }
+    .checkbox__right__content__bx1 {
+        height: 270px;
+        border-radius: 17px;
+    }
+    .input-pay-select .input {
+        top: 12px;
+        left: 12px;
+    }
+    .input-pay-select p {
+        font-style: 16px;
+        margin: 0 0 0 20px;
+    }
+
 }
 
 @media (max-width: 1399px) {
@@ -309,6 +376,21 @@
     }
     .brands-section {
         padding: 70px 0;
+    }
+
+    .form-x__title h3 {
+        font-size: 30px;
+        margin: 0 0 20px;
+    }
+    .input-pay-select-wrap {
+        grid-template-columns: repeat(1,1fr);
+        grid-row-gap: 22px;
+    }
+    .checkbox__right__content {
+        padding: 25px;
+    }
+    .checkbox__right__content__bx1 {
+        height: 200px;
     }
 }
 
